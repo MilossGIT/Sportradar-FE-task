@@ -1,0 +1,314 @@
+{
+    "data": [
+        {
+            "season": 2026,
+            "status": "played",
+            "timeVenueUTC": "00:00:00",
+            "dateVenue": "2025-11-03",
+            "stadium": null,
+            "homeTeam": {
+                "name": "Al Shabab",
+                "officialName": "Al Shabab FC",
+                "slug": "al-shabab-fc",
+                "abbreviation": "SHA",
+                "teamCountryCode": "KSA",
+                "stagePosition": null
+            },
+            "awayTeam": {
+                "name": "Nasaf",
+                "officialName": "FC Nasaf",
+                "slug": "fc-nasaf-qarshi",
+                "abbreviation": "NAS",
+                "teamCountryCode": "UZB",
+                "stagePosition": null
+            },
+            "result": {
+                "homeGoals": 1,
+                "awayGoals": 2,
+                "winner": "Nasaf",
+                "message": null,
+                "goals": [],
+                "yellowCards": [],
+                "secondYellowCards": [],
+                "directRedCards": []
+            },
+            "stage": {
+                "id": "ROUND OF 16",
+                "name": "ROUND OF 16",
+                "ordering": 4
+            },
+            "group": null,
+            "originCompetitionId": "afc-champions-league",
+            "originCompetitionName": "AFC Champions League",
+            "sport": "football"
+        },
+        {
+            "season": 2026,
+            "status": "scheduled",
+            "timeVenueUTC": "16:00:00",
+            "dateVenue": "2025-11-03",
+            "stadium": null,
+            "homeTeam": {
+                "name": "Al Hilal",
+                "officialName": "Al Hilal Saudi FC",
+                "slug": "al-hilal-saudi-fc",
+                "abbreviation": "HIL",
+                "teamCountryCode": "KSA",
+                "stagePosition": null
+            },
+            "awayTeam": {
+                "name": "Shabab Al Ahli",
+                "officialName": "SHABAB AL AHLI DUBAI",
+                "slug": "shabab-al-ahli-club",
+                "abbreviation": "SAH",
+                "teamCountryCode": "UAE",
+                "stagePosition": null
+            },
+            "result": {
+                "homeGoals": 0,
+                "awayGoals": 0,
+                "winner": null,
+                "winnerId": null,
+                "message": null,
+                "goals": [],
+                "yellowCards": [],
+                "secondYellowCards": [],
+                "directRedCards": [],
+                "scoreByPeriods": null
+            },
+            "stage": {
+                "id": "ROUND OF 16",
+                "name": "ROUND OF 16",
+                "ordering": 4
+            },
+            "group": null,
+            "originCompetitionId": "afc-champions-league",
+            "originCompetitionName": "AFC Champions League",
+            "sport": "football"
+        },
+        {
+            "season": 2026,
+            "status": "scheduled",
+            "timeVenueUTC": "15:25:00",
+            "dateVenue": "2025-11-04",
+            "stadium": null,
+            "homeTeam": {
+                "name": "Al Duhail",
+                "officialName": "AL DUHAIL SC",
+                "slug": "al-duhail-sc",
+                "abbreviation": "DUH",
+                "teamCountryCode": "QAT",
+                "stagePosition": null
+            },
+            "awayTeam": {
+                "name": "Pakhtakor",
+                "officialName": "Pakhtakor Tashkent FK",
+                "slug": "pakhtakor-tashkent-fk",
+                "abbreviation": "PAK",
+                "teamCountryCode": "UZB",
+                "stagePosition": null
+            },
+            "result": null,
+            "stage": {
+                "id": "ROUND OF 16",
+                "name": "ROUND OF 16",
+                "ordering": 4
+            },
+            "group": null,
+            "originCompetitionId": "afc-champions-league",
+            "originCompetitionName": "AFC Champions League",
+            "sport": "football"
+        },
+        {
+            "season": 2026,
+            "status": "scheduled",
+            "timeVenueUTC": "16:30:00",
+            "dateVenue": "2025-11-04",
+            "stadium": null,
+            "homeTeam": {
+                "name": "Gwangju FC",
+                "officialName": "Gwangju FC",
+                "slug": "gwangju-fc",
+                "abbreviation": "GWA",
+                "teamCountryCode": "KOR",
+                "stagePosition": null
+            },
+            "awayTeam": {
+                "name": "Yokohama F. Marinos",
+                "officialName": "Yokohama F. Marinos",
+                "slug": "yokohama-f-marinos",
+                "abbreviation": "YOK",
+                "teamCountryCode": "JPN",
+                "stagePosition": null
+            },
+            "result": null,
+            "stage": {
+                "id": "ROUND OF 16",
+                "name": "ROUND OF 16",
+                "ordering": 4
+            },
+            "group": null,
+            "originCompetitionId": "afc-champions-league",
+            "originCompetitionName": "AFC Champions League",
+            "sport": "football"
+        },
+        {
+            "season": 2026,
+            "status": "scheduled",
+            "timeVenueUTC": "12:00:00",
+            "dateVenue": "2025-11-05",
+            "stadium": null,
+            "homeTeam": {
+                "name": "Al Ain",
+                "officialName": "Al Ain FC",
+                "slug": "al-ain-fc",
+                "abbreviation": "AIN",
+                "teamCountryCode": "UAE",
+                "stagePosition": null
+            },
+            "awayTeam": {
+                "name": "Sepahan",
+                "officialName": "Sepahan FC",
+                "slug": "sepahan-fc",
+                "abbreviation": "SEP",
+                "teamCountryCode": "IRN",
+                "stagePosition": null
+            },
+            "result": null,
+            "stage": {
+                "id": "ROUND OF 16",
+                "name": "ROUND OF 16",
+                "ordering": 4
+            },
+            "group": null,
+            "originCompetitionId": "afc-champions-league",
+            "originCompetitionName": "AFC Champions League",
+            "sport": "football"
+        },
+        {
+            "season": 2026,
+            "status": "scheduled",
+            "timeVenueUTC": "15:00:00",
+            "dateVenue": "2025-11-05",
+            "stadium": null,
+            "homeTeam": {
+                "name": "Ulsan HD",
+                "officialName": "Ulsan HD FC",
+                "slug": "ulsan-hd-fc",
+                "abbreviation": "ULS",
+                "teamCountryCode": "KOR",
+                "stagePosition": null
+            },
+            "awayTeam": {
+                "name": "Foolad Khuzestan",
+                "officialName": "Foolad Khuzestan FC",
+                "slug": "foolad-khuzestan-fc",
+                "abbreviation": "FLD",
+                "teamCountryCode": "IRN",
+                "stagePosition": null
+            },
+            "result": null,
+            "stage": {
+                "id": "ROUND OF 16",
+                "name": "ROUND OF 16",
+                "ordering": 4
+            },
+            "group": null,
+            "originCompetitionId": "afc-champions-league",
+            "originCompetitionName": "AFC Champions League",
+            "sport": "football"
+        },
+        {
+            "season": 2026,
+            "status": "scheduled",
+            "timeVenueUTC": "18:30:00",
+            "dateVenue": "2025-07-18",
+            "stadium": null,
+            "homeTeam": {
+                "name": "Salzburg",
+                "officialName": "FC Red Bull Salzburg",
+                "slug": "fc-red-bull-salzburg",
+                "abbreviation": "SAL",
+                "teamCountryCode": "AUT",
+                "stagePosition": null
+            },
+            "awayTeam": {
+                "name": "Sturm",
+                "officialName": "SK Sturm Graz",
+                "slug": "sk-sturm-graz",
+                "abbreviation": "STU",
+                "teamCountryCode": "AUT",
+                "stagePosition": null
+            },
+            "result": null,
+            "stage": {
+                "id": "REGULAR_SEASON",
+                "name": "Regular Season",
+                "ordering": 1
+            },
+            "group": null,
+            "originCompetitionId": "austrian-bundesliga",
+            "originCompetitionName": "Austrian Bundesliga",
+            "sport": "football"
+        },
+        {
+            "season": 2026,
+            "status": "scheduled",
+            "timeVenueUTC": "09:45:00",
+            "dateVenue": "2025-10-23",
+            "stadium": null,
+            "homeTeam": {
+                "name": "KAC",
+                "officialName": "Klagenfurt AC",
+                "slug": "klagenfurt-ac",
+                "abbreviation": "KAC",
+                "teamCountryCode": "AUT",
+                "stagePosition": null
+            },
+            "awayTeam": {
+                "name": "Capitals",
+                "officialName": "Vienna Capitals",
+                "slug": "vienna-capitals",
+                "abbreviation": "CAP",
+                "teamCountryCode": "AUT",
+                "stagePosition": null
+            },
+            "result": null,
+            "stage": {
+                "id": "REGULAR_SEASON",
+                "name": "Regular Season",
+                "ordering": 1
+            },
+            "group": null,
+            "originCompetitionId": "austrian-hockey-league",
+            "originCompetitionName": "Austrian Hockey League",
+            "sport": "ice-hockey"
+        },
+        {
+            "season": 2026,
+            "status": "scheduled",
+            "timeVenueUTC": "00:00:00",
+            "dateVenue": "2025-11-19",
+            "stadium": null,
+            "homeTeam": null,
+            "awayTeam": {
+                "name": "Urawa Reds",
+                "officialName": "Urawa Red Diamonds",
+                "slug": "urawa-red-diamonds",
+                "abbreviation": "RED",
+                "teamCountryCode": "JPN",
+                "stagePosition": null
+            },
+            "result": null,
+            "stage": {
+                "id": "FINAL",
+                "name": "FINAL",
+                "ordering": 7
+            },
+            "group": null,
+            "originCompetitionId": "afc-champions-league",
+            "originCompetitionName": "AFC Champions League",
+            "sport": "football"
+        }
+    ]
+}
