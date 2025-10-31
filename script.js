@@ -86,6 +86,11 @@ function setupButtons() {
     document.getElementById('close-modal').onclick = function () {
         document.getElementById('event-modal').style.display = 'none';
     };
+
+    // Sport filter
+    document.getElementById('sport-filter').onchange = function () {
+        showCalendar();
+    };
 }
 
 // Show calendar
@@ -115,11 +120,17 @@ function showCalendar() {
         let hasEvents = false;
         const dayEvents = [];
 
-        // Check if this day has events
+        // Get selected sport filter
+        const selectedSport = document.getElementById('sport-filter').value;
+
+        // Check if this day has events (with filter)
         for (let j = 0; j < events.length; j++) {
             if (events[j].dateVenue === dateString) {
-                hasEvents = true;
-                dayEvents.push(events[j]);
+                // Apply sport filter
+                if (selectedSport === '' || events[j].sport === selectedSport) {
+                    hasEvents = true;
+                    dayEvents.push(events[j]);
+                }
             }
         }
 
@@ -153,11 +164,15 @@ function showCalendar() {
 // Show event details
 function showEventDetails(dateString) {
     const dayEvents = [];
+    const selectedSport = document.getElementById('sport-filter').value;
 
-    // Find events for this day
+    // Find events for this day (with filter)
     for (let i = 0; i < events.length; i++) {
         if (events[i].dateVenue === dateString) {
-            dayEvents.push(events[i]);
+            // Apply sport filter
+            if (selectedSport === '' || events[i].sport === selectedSport) {
+                dayEvents.push(events[i]);
+            }
         }
     }
 

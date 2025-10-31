@@ -80,6 +80,26 @@ body {
   margin: 0;
 }
 
+.filter-section {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.filter-section label {
+  color: #00003c;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.filter-section select {
+  padding: 8px 12px;
+  border: 2px solid #00003c;
+  border-radius: 5px;
+  background-color: white;
+  color: #00003c;
+  cursor: pointer;
+}
+
 .calendar {
   background-color: white;
   border-radius: 5px;
