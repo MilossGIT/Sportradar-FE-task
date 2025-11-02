@@ -16,37 +16,18 @@ function loadEvents() {
     const customEvents = JSON.parse(localStorage.getItem('sportradarCustomEvents') || '[]');
 
     fetch('SportradarGames.json')
-        .then(response => response.json())
-        .then(data => {
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (data) {
             // Combine base events with custom events
             events = data.data.concat(customEvents);
             showCalendar();
         })
-        .catch(error => {
+        .catch(function (error) {
             console.log('Error loading events:', error);
-            // Use sample events if JSON fails
-            events = [
-                {
-                    dateVenue: '2025-07-18',
-                    timeVenueUTC: '18:30:00',
-                    homeTeam: { name: 'Salzburg' },
-                    awayTeam: { name: 'Sturm' },
-                    sport: 'football',
-                    originCompetitionName: 'Austrian Bundesliga',
-                    status: 'scheduled'
-                },
-                {
-                    dateVenue: '2025-10-23',
-                    timeVenueUTC: '09:45:00',
-                    homeTeam: { name: 'KAC' },
-                    awayTeam: { name: 'Capitals' },
-                    sport: 'ice-hockey',
-                    originCompetitionName: 'Austrian Hockey League',
-                    status: 'scheduled'
-                }
-            ];
-            // Add any custom events even if JSON fails
-            events = events.concat(customEvents);
+            // If JSON fails, just use custom events (or empty array)
+            events = customEvents.slice();
             showCalendar();
         });
 }
