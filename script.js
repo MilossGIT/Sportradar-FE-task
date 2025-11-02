@@ -10,12 +10,16 @@ window.onload = function () {
     setupButtons();
 };
 
-// Get events from JSON file
+// Get events from JSON file and localStorage
 function loadEvents() {
+    // First, load any custom events from localStorage
+    const customEvents = JSON.parse(localStorage.getItem('sportradarCustomEvents') || '[]');
+
     fetch('SportradarGames.json')
         .then(response => response.json())
         .then(data => {
-            events = data.data;
+            // Combine base events with custom events
+            events = data.data.concat(customEvents);
             showCalendar();
         })
         .catch(error => {
@@ -41,6 +45,8 @@ function loadEvents() {
                     status: 'scheduled'
                 }
             ];
+            // Add any custom events even if JSON fails
+            events = events.concat(customEvents);
             showCalendar();
         });
 }
@@ -218,6 +224,12 @@ function addNewEvent() {
         status: 'scheduled'
     };
 
+    // Save to localStorage
+    const customEvents = JSON.parse(localStorage.getItem('sportradarCustomEvents') || '[]');
+    customEvents.push(newEvent);
+    localStorage.setItem('sportradarCustomEvents', JSON.stringify(customEvents));
+
+    // Add to current events
     events.push(newEvent);
     showCalendar();
 
@@ -228,7 +240,7 @@ function addNewEvent() {
     showPage('calendar');
     setActiveButton('calendar-btn');
 
-    alert('Event added successfully!');
+    alert('Event added successfully! It will persist even after page refresh.');
 }
 
 // Show page
