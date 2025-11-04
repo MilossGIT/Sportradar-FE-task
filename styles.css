@@ -158,9 +158,10 @@ body {
 }
 
 .calendar-day.today {
-  background-color: #d7242a;
-  color: white;
+  border: 3px solid #d7242a;
+  color: #d7242a;
   font-weight: bold;
+  box-shadow: 0 0 5px rgba(215, 36, 42, 0.3);
 }
 
 .calendar-day.has-events {
