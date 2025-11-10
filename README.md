@@ -108,13 +108,3 @@ All tests should pass for the application to work correctly.
 ## Browser Support
 
 Works in all modern browsers including Chrome, Firefox, Safari, and Edge.
-
-## Sample Data
-
-The application includes sample events for demonstration:
-
-- Football matches (Salzburg vs. Sturm)
-- Ice hockey games (KAC vs. Capitals)
-- Various international competitions
-
-New events added through the form will appear alongside the sample data and persist between browser sessions using localStorage.
